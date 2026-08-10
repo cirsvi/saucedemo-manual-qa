@@ -4,11 +4,11 @@
 |-------------------|--------|
 | **Test Case ID**  | SDQA-9 |
 | **Priority**      | Medium |
-| **Requirement / User Story** |  [SDQA-1](../../user-stories/SDQA-1-Login.md) (covers "Username Empty" AC) |
+| **Requirement / User Story** |  [SDQA-1](../../user-stories/SDQA-1-login.md) (covers "Username Empty" AC) |
 
 
 ## Preconditions
-- [SDQA-4](../../preconditions/SDQA4-on-login-page.md): User is located on the [login page]( https://www.saucedemo.com/).
+- [SDQA-4](../../preconditions/SDQA-4-on-login-page.md): User is located on the [login page]( https://www.saucedemo.com/).
 
 ## Test Steps
 | Step | Action | Expected Result |

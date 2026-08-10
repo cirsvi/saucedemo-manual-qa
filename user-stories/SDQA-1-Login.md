@@ -20,9 +20,6 @@
 | [SDQA-16](../test-cases/login/SDQA-16-tab-navigation.md) |  SauceDemo \| Login \| UX \| Tab navigation |
 | [SDQA-18](../test-cases/login/SDQA-18-mouse-interaction.md) |  SauceDemo \| Login \| UX \| Mouse interaction |
 
-
-
-
 ## Business Value
 
 Allows registered users to access the main functionality of the website: browsing the products and completing the purchase. This is the entry point of the entire application and a critical path for revenue generation.
