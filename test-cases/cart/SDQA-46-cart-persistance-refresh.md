@@ -1,4 +1,4 @@
-# SDQA-46: SauceDemo | Shopping Cart | Remove product from Catalog Page
+# SDQA-46: SauceDemo | Shopping Cart | Cart state persistence after page refresh
 
 | Field             | Detail |
 |-------------------|--------|

@@ -1,4 +1,4 @@
-# SDQA-77: Sauce Demo | Checkout | Cancel from Overview Page
+# SDQA-77: SauceDemo | Checkout | Cancel from Overview Page
 
 | Field             | Detail |
 |-------------------|--------|

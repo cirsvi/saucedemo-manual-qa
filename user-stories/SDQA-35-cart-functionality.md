@@ -15,7 +15,7 @@
 | [SDQA-43](../test-cases/cart/SDQA-43-remove-from-details.md) | SauceDemo \| Shopping Cart \| Remove product from Product Detail Page |
 | [SDQA-44](../test-cases/cart/SDQA-44-remove-btn-persistance-details.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on Catalog Page after adding from the Product Details Page |
 | [SDQA-45](../test-cases/cart/SDQA-45-remove-btn-persistance-catalog.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on Product Details Page after adding from the Catalog Page |
-| [SDQA-46](../test-cases/cart/SDQA-46-cart-persistance-refresh.md) | SauceDemo \| Shopping Cart \| Remove product from Catalog Page |
+| [SDQA-46](../test-cases/cart/SDQA-46-cart-persistance-refresh.md) | SauceDemo \| Shopping Cart \| Cart state persistence after page refresh |
 
 ## Business Value
 

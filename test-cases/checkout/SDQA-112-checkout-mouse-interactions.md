@@ -1,4 +1,4 @@
-# SDQA-112: SauceDemo | Checkout | UX | Tab navigation on Information Page
+# SDQA-112: SauceDemo | Checkout | UX | Mouse interactions on Information Page
 
 | Field             | Detail |
 |-------------------|--------|
