@@ -6,7 +6,6 @@
 | **Priority**      | Low |
 | **Requirement / User Story** |  [SDQA-1](../../user-stories/SDQA-1-login.md) |
 
-
 ## Preconditions
 - [SDQA-4](../../preconditions/SDQA-4-on-login-page.md): User is located on the [login page]( https://www.saucedemo.com/).
 

@@ -6,7 +6,6 @@
 | **Priority**      | High |
 | **Requirement / User Story** |  [SDQA-50](../../user-stories/SDQA-50-logout.md) (covers "Successful Logout" AC) |
 
-
 ## Preconditions
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.
 

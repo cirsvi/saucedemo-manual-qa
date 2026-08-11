@@ -12,7 +12,6 @@
 | [SDQA-52](../test-cases/logout/SDQA-52-logout.md) | SauceDemo \| Logout \| Successfull logout |
 | [SDQA-53](../test-cases/logout/SDQA-53-protected-pages.md) | SauceDemo \| Logout \| Protected pages are inaccessible |
 
-
 ## Business Value
 
 Logging out is a critical security feature that allows users to safely end their session, especially on shared devices. Without this, user accounts remain vulnerable to unauthorised access.

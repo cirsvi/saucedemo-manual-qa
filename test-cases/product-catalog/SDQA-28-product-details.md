@@ -6,7 +6,6 @@
 | **Priority**      | High |
 | **Requirement / User Story** |  [SDQA-21](../../user-stories/SDQA-21-product-catalog.md) (covers "Individual Product Page" AC) |
 
-
 ## Preconditions
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.
 - [SDQA-31](../../preconditions/SDQA-31-catalog-page.md): User is located on the product catalog page.

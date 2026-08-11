@@ -6,7 +6,6 @@
 | **Priority**      | High |
 | **Requirement / User Story** |  [SDQA-50](../../user-stories/SDQA-50-logout.md) (covers "Protected Pages After Logout" AC) |
 
-
 ## Preconditions
 - [SDQA-54](../../preconditions/SDQA-54-logged-out.md): UUser has successfully logged out.
 

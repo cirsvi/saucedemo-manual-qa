@@ -17,8 +17,6 @@
 | [SDQA-27](../test-cases/product-catalog/SDQA-27-refresh-sort.md) | SauceDemo \| Product Catalog \| Refresh page preserves applied sort |
 | [SDQA-28](../test-cases/product-catalog/SDQA-28-product-details.md) | SauceDemo \| Product Catalog \| Navigate to product details page |
 
-
-
 ## Business Value
 
 The product catalogue browsing is the main user experience. Without it, users cannot discover products, which directly impacts sales.
