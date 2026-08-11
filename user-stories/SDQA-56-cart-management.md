@@ -9,7 +9,12 @@
 ## Test Cases
 | ID           | Summary |
 |-------------------|--------|
-| [SDQA-36](../test-cases/cart/SDQA-36-add-from-catalog.md) | SauceDemo \| Shopping Cart \| Add product from Catalog Page |
+| [SDQA-62](../test-cases/cart/SDQA-62-access-cart-catalog.md) | Sauce Demo \| Shopping Cart \| Access cart page from Catalog Page |
+| [SDQA-63](../test-cases/cart/SDQA-63-view-cart.md) | Sauce Demo \| Shopping Cart \| View items in cart |
+| [SDQA-64](../test-cases/cart/SDQA-64-remove-item-from-cart.md) | Sauce Demo \| Shopping Cart \| Remove items from cart |
+| [SDQA-65](../test-cases/cart/SDQA-65-navigate-details-cart.md) | Sauce Demo \| Shopping Cart \| Navigate to the Details Page from the cart |
+| [SDQA-66](../test-cases/cart/SDQA-66-cart-continue-shopping.md) | Sauce Demo \| Shopping Cart \| Continue shopping |
+| [SDQA-68](../test-cases/cart/SDQA-68-access-cart-details.md) | Sauce Demo \| Shopping Cart \| Access cart page from Product Details Page |
 
 ## Business Value
 
