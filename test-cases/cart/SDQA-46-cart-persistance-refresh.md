@@ -4,7 +4,7 @@
 |-------------------|--------|
 | **Test Case ID**  | SDQA-46 |
 | **Priority**      | Medium |
-| **Requirement / User Story** |  [SDQA-35](../../user-stories/SDQA-35-add-to-cart.md) (covers "Cart Persistence" AC) |
+| **Requirement / User Story** |  [SDQA-35](../../user-stories/SDQA-35-cart-functionality.md) (covers "Cart Persistence" AC) |
 
 ## Preconditions
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.

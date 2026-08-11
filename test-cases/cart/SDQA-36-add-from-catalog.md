@@ -4,7 +4,7 @@
 |-------------------|--------|
 | **Test Case ID**  | SDQA-36 |
 | **Priority**      | High |
-| **Requirement / User Story** |  [SDQA-35](../../user-stories/SDQA-35-add-to-cart.md) (covers "Add from Catalog Page" AC) |
+| **Requirement / User Story** |  [SDQA-35](../../user-stories/SDQA-35-cart-functionality.md) (covers "Add from Catalog Page" AC) |
 
 ## Preconditions
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.

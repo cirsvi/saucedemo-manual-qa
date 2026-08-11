@@ -4,7 +4,7 @@
 |-------------------|--------|
 | **Test Case ID**  | SDQA-43 |
 | **Priority**      | High |
-| **Requirement / User Story** |  [SDQA-35](../../user-stories/SDQA-35-add-to-cart.md) (covers "Remove Item" AC) |
+| **Requirement / User Story** |  [SDQA-35](../../user-stories/SDQA-35-cart-functionality.md) (covers "Remove Item" AC) |
 
 ## Preconditions
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.
