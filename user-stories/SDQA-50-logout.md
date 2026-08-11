@@ -10,7 +10,7 @@
 | ID           | Summary |
 |-------------------|--------|
 | [SDQA-52](../test-cases/logout/SDQA-52-logout.md) | SauceDemo \| Logout \| Successfull logout |
-| [SDQA-6](../test-cases/login/SDQA-6-invalid-login.md) | SauceDemo \| Login \| Input invalid credentials |
+| [SDQA-53](../test-cases/logout/SDQA-53-protected-pages.md) | SauceDemo \| Logout \| Protected pages are inaccessible |
 
 
 ## Business Value
