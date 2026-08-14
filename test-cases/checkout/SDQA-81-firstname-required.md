@@ -15,6 +15,6 @@
 | Step | Action | Expected Result |
 |------|--------|-----------------|
 | 1 | User leaves "First Name" input field empty. | The "First Name" field is empty. |
-| 2 | Enter a valid Last Name (e.g., Doe) into the "Last Name" input field. | The "Last Name" input field displays the entered name (e.g., Doe). |
-| 3 | Enter a valid Zip/Postal Code (e.g., LV0000) into the "Zip/Postal Code" input field. | The "Zip/Postal Code" input field displays the entered ZIP code (e.g., LV0000). |
-| 4 | Click the "Continue" button in the bottom right corner. | The input field is highlighted in red color and an error message "First Name is required" is displayed in a red box below all the input fields and . The user remains on the "Checkout: Your information" page. |
+| 2 | User enters a valid Last Name (e.g., Doe) into the "Last Name" input field. | The "Last Name" input field displays the entered name (e.g., Doe). |
+| 3 | User enters a valid Zip/Postal Code (e.g., LV0000) into the "Zip/Postal Code" input field. | The "Zip/Postal Code" input field displays the entered ZIP code (e.g., LV0000). |
+| 4 | User clicks the "Continue" button in the bottom right corner. | The input field is highlighted in red color and an error message "First Name is required" is displayed in a red box below all the input fields and . The user remains on the "Checkout: Your information" page. |

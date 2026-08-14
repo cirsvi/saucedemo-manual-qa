@@ -14,7 +14,7 @@
 ## Test Steps
 | Step | Action | Expected Result |
 |------|--------|-----------------|
-| 1 | Enter a valid First Name (e.g., Jane) into the "First Name" input field. | The "First Name" input field displays the entered name (e.g., Jane). |
-| 2 | Enter a valid Last Name (e.g., Doe) into the "Last Name" input field. | The "Last Name" input field displays the entered name (e.g., Doe). |
-| 3 | Enter a valid Zip/Postal Code (e.g., LV0000) into the "Zip/Postal Code" input field. | The "Zip/Postal Code" input field displays the entered ZIP code (e.g., LV0000). |
-| 4 | Click the "Continue" button in the bottom right corner. | User is redirected to the "Checkout: Overview" Page (`/checkout-step-two.html`). |
+| 1 | User enters a valid First Name (e.g., Jane) into the "First Name" input field. | The "First Name" input field displays the entered name (e.g., Jane). |
+| 2 | User enters a valid Last Name (e.g., Doe) into the "Last Name" input field. | The "Last Name" input field displays the entered name (e.g., Doe). |
+| 3 | User enters a valid Zip/Postal Code (e.g., LV0000) into the "Zip/Postal Code" input field. | The "Zip/Postal Code" input field displays the entered ZIP code (e.g., LV0000). |
+| 4 | User clicks the "Continue" button in the bottom right corner. | User is redirected to the "Checkout: Overview" Page (`/checkout-step-two.html`). |

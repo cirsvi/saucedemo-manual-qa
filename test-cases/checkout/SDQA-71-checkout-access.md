@@ -14,4 +14,4 @@
 ## Test Steps
 | Step | Action | Expected Result |
 |------|--------|-----------------|
-| 1 |User locates "Checkout" button in the bottom right corner and clicks it. | The user is redirected to the "Checkout: Your Information" Page (`/checkout-step-one.html`). |
+| 1 | User locates "Checkout" button in the bottom right corner and clicks it. | The user is redirected to the "Checkout: Your Information" Page (`/checkout-step-one.html`). |

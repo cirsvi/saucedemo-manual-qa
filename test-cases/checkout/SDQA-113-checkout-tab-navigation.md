@@ -17,5 +17,5 @@
 | 1 | User presses the "Tab" key twice. | The cursor/focus moves to the "First Name" field. A visual highlight border appears. |
 | 2 | User presses the Tab key again (3rd time). | The cursor/focus moves to the "Last Name" field. A visual highlight border appears. |
 | 3 | User presses the Tab key again (4th time). | The cursor/focus moves to the "Zip/Postal Code" field. A visual highlight border appears. |
-| 4 | User presses the Tab key again (5th time). | The cursor/focus moves to the "<- Cancel" button. The button is visually highlighted. |
-| 5 | User presses the Tab key again (6th time). | The cursor/focus moves to the "Continue" button. The button is visually highlighted. |
+| 4 | User presses the Tab key again (5th time). | Focus moves to the "<- Cancel" button. The button is visually highlighted. |
+| 5 | User presses the Tab key again (6th time). | Focus moves to the "Continue" button. The button is visually highlighted. |

@@ -1,0 +1,388 @@
+Summary,Issue key,Issue Type,Status,Project key,Project name,Priority,Created,Updated,Affects versions,Description,Environment,Inward issue link (Defect),Inward issue link (Defect),Sprint
+SauceDemo | Checkout | UX |  Input fields and button lack visible focus indicators for keyboard navigation,SDQA-132,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 11:09 AM,10/Aug/26 11:14 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User presses the ""Tab"" key twice.|The cursor/focus moves to the ""First Name"" field. A visual highlight border appears.|The appears in the ""Username"" input field, *but there is no visual highlight*:
+!Screenshot 2026-08-10 101013.png|width=286,alt=""Screenshot 2026-08-10 101013.png""!|
+|User presses the Tab key again (3rd time).|The cursor/focus moves to the ""Last Name"" field. A visual highlight border appears.|The cursor moves to the ""Last Name"" input field, *but there is no visual highlight:*
+!Screenshot 2026-08-10 101026.png|width=286,alt=""Screenshot 2026-08-10 101026.png""!|
+|User presses the Tab key again (4th time).|The cursor/focus moves to the ""Zip/Postal Code"" field. A visual highlight border appears.|The cursor moves to the ""Zip/Postal Code"" input field, *but there is no visual highlight:*
+!Screenshot 2026-08-10 101034.png|width=286,alt=""Screenshot 2026-08-10 101034.png""!|
+|User presses the Tab key again (5th time).|The cursor/focus moves to the ""<- Cancel"" button. The button is visually highlighted.|The ""<- Cancel"" button does *not visually highlight for the user*:
+!Screenshot 2026-08-10 102615.png|width=260,alt=""Screenshot 2026-08-10 102615.png""!|
+|User presses the Tab key again (6th time).|The cursor/focus moves to the ""Continue"" button. The button is visually highlighted.|The ""Continue"" button does *not visually highlight for the user*:
+!Screenshot 2026-08-10 102622.png|width=286,alt=""Screenshot 2026-08-10 102622.png""!|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing: -*","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-115,SDQA-113,SDQA Sprint 1
+SauceDemo | Checkout | UX |  Input fields and button lack visible focus indicators for mouse navigation,SDQA-131,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 10:19 AM,10/Aug/26 10:24 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User clicks on the ""First Name"" input field field.|The ""First Name"" input field is selected and has a visible visual highlight.|The cursor appears in the ""First Name"" input field, *but there is no visual highlight:*
+!Screenshot 2026-08-10 101013.png|width=286,alt=""Screenshot 2026-08-10 101013.png""!|
+|User clicks on the ""Last Name"" input field field.|The ""Last Name"" input field is selected and has a visible visual highlight.|The cursor appears in the ""Last Name"" input field, *but there is no visual highlight:*
+!Screenshot 2026-08-10 101026.png|width=286,alt=""Screenshot 2026-08-10 101026.png""!|
+|User clicks on the ""Zip/Postal Code"" input field field.|The ""Zip/Postal Code"" input field is selected and has a visible visual highlight.|The cursor appears in the ""Zip/Postal Code"" input field, *but there is no visual highlight:*
+!Screenshot 2026-08-10 101034.png|width=286,alt=""Screenshot 2026-08-10 101034.png""!|
+|User hovers using mouse over the ""<- Cancel"" button.|The button changes its appearance by a distinct color; the cursor visibly changes to hand to indicate possible action.|The ""<- Cancel"" button does *not visually highlight for the user*, when hovered over (see video in Attachments).|
+|User hovers using mouse over the ""Continue"" button.|The button changes its appearance by a distinct color; the cursor visibly changes to hand to indicate possible action.|The ""Continue"" button does *not visually highlight for the user*, when hovered over (see video in Attachments).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing: -*","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-112,SDQA-115,SDQA Sprint 1
+"SauceDemo | Checkout | UX |  Checkout ""Zip/Postal Code"" field accepts special characters",SDQA-130,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 10:04 AM,10/Aug/26 10:05 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|Enter a valid First Name (e.g., Jane) into the ""First Name"" input field.|The ""First Name"" input field displays the entered name (e.g., Jane).|-|
+|Enter a valid Last Name (e.g., Doe) into the ""Last Name"" input field.|The ""Last Name"" input field displays the entered name (e.g., Doe).|-|
+|User inputs a string of special characters (e.g., ""@&$^@%"") into the ""Zip/Postal Code"" input field.|The ""Zip/Postal Code"" input field displays entered string (e.g., ""@&$^@%"").|-|
+|Click the ""Continue"" button in the bottom right corner.|The server rejects the request and displays an error message: ""Zip code must contain only letters and numbers."" and the input field is highlighted in red color.|The ""Zip/Postal Code"" input of special characters is accepted and the user is redirected to the ""Checkout: Overview"" page; no error message displayed (see video in Attachements).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-115,SDQA-94,SDQA Sprint 1
+"SauceDemo | Checkout | UX |  Checkout ""Last Name"" field accepts special characters",SDQA-129,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 10:02 AM,10/Aug/26 10:03 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|Enter a valid First Name (e.g., Jane) into the ""First Name"" input field.|The ""First Name"" input field displays the entered name (e.g., Jane).|-|
+|User inputs a string of special characters (e.g., ""@&$^@%"") into the ""Last Name"" input field.|The ""Last Name"" input field displays entered string (e.g., ""@&$^@%"").|-|
+|Enter a valid Zip/Postal Code (e.g., LV0000) into the ""Zip/Postal Code"" input field.|The ""Zip/Postal Code"" input field displays the entered ZIP code (e.g., LV0000).|-|
+|Click the ""Continue"" button in the bottom right corner.|The server rejects the request and displays an error message: ""Last Name must contain only letters, spaces, and hyphens."" and the input field is highlighted in red color.|The ""Last Name"" input of special characters is accepted and the user is redirected to the ""Checkout: Overview"" page; no error message displayed (see vieo in Attachments).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-115,SDQA-93,SDQA Sprint 1
+"SauceDemo | Checkout | UX |  Checkout ""First Name"" field accepts special characters",SDQA-128,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 9:55 AM,10/Aug/26 9:56 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User inputs a string of special characters (e.g., ""@&$^@%"") into the ""First Name"" input field.|The ""First Name"" input field displays entered string (e.g., ""@&$^@%"").|-|
+|Enter a valid Last Name (e.g., Doe) into the ""Last Name"" input field.|The ""Last Name"" input field displays the entered name (e.g., Doe).|-|
+|Enter a valid Zip/Postal Code (e.g., LV0000) into the ""Zip/Postal Code"" input field.|The ""Zip/Postal Code"" input field displays the entered ZIP code (e.g., LV0000).|-|
+|Click the ""Continue"" button in the bottom right corner.|The server rejects the request and displays an error message: ""First Name must contain only letters, spaces, and hyphens."" and the input field is highlighted in red color.|The ""First Name"" input of special characters is accepted and the user is redirected to the ""Checkout: Overview"" page; no error message displayed (see video in attachments).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-115,SDQA-89,SDQA Sprint 1
+"SauceDemo | Checkout | UX |  Checkout ""Zip/Postal Code"" field accepts infinite amount of characters",SDQA-127,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 7:24 AM,10/Aug/26 9:53 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|Enter a valid First Name (e.g., Jane) into the ""First Name"" input field.|The ""First Name"" input field displays the entered name (e.g., Jane).|-|
+|Enter a valid Last Name (e.g., Doe) into the ""Last Name"" input field.|The ""Last Name"" input field displays the entered name (e.g., Doe).|-|
+|User inputs a really long string (e.g., letter a 200+ times) into the ""Zip/Postal Code"" input field.|The ""Zip/Postal Code"" input field displays entered string (e.g., letter a 200+ times).|-|
+|Click the ""Continue"" button in the bottom right corner.|The server rejects the request and displays an error message: ""Zip code must be under 10 characters."" and the input field is highlighted in red color.|The ""Zip/Postal Code"" input of long string is accepted and the user is redirected to the ""Checkout: Overview"" page; no error message displayed (see video in Attachements).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-103,SDQA-115,SDQA Sprint 1
+"SauceDemo | Checkout | UX |  Checkout ""Last Name"" field accepts infinite amount of characters",SDQA-126,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 7:19 AM,10/Aug/26 9:54 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|Enter a valid First Name (e.g., Jane) into the ""First Name"" input field.|The ""First Name"" input field displays the entered name (e.g., Jane).|-|
+|User inputs a really long string (e.g., letter a 200+ times) into the ""Last Name"" input field.|The ""Last Name"" input field displays entered string (e.g., letter a 200+ times).|-|
+|Enter a valid Zip/Postal Code (e.g., LV0000) into the ""Zip/Postal Code"" input field.|The ""Zip/Postal Code"" input field displays the entered ZIP code (e.g., LV0000).|-|
+|Click the ""Continue"" button in the bottom right corner.|The server rejects the request and displays an error message: ""Last Name must be under 50 characters."" and the input field is highlighted in red color.|The ""Last Name"" input of long string is accepted and the user is redirected to the ""Checkout: Overview"" page; no error message displayed (see video in Attachements).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-102,SDQA-115,SDQA Sprint 1
+"SauceDemo | Checkout | UX |  Checkout ""First Name"" field accepts infinite amount of characters",SDQA-125,Bug,To Do,SDQA,SauceDemo_QA,Low,10/Aug/26 7:11 AM,10/Aug/26 9:54 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User has item(s) in the cart.
+* User is on the “Checkout: Your Information” page ([https://www.saucedemo.com/checkout-step-one.html|https://www.saucedemo.com/checkout-step-one.html]).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User inputs a really long string (e.g., letter a 200+ times) into the ""First Name"" input field.|The ""First Name"" input field displays entered string (e.g., letter a 200+ times).|-|
+|Enter a valid Last Name (e.g., Doe) into the ""Last Name"" input field.|The ""Last Name"" input field displays the entered name (e.g., Doe).|-|
+|Enter a valid Zip/Postal Code (e.g., LV0000) into the ""Zip/Postal Code"" input field.|The ""Zip/Postal Code"" input field displays the entered ZIP code (e.g., LV0000).|-|
+|Click the ""Continue"" button in the bottom right corner.|The server rejects the request and displays an error message: ""First Name must be under 50 characters."" and the input field is highlighted in red color.|The ""First Name"" input of long string is accepted and the User is redirected to the ""Checkout: Overview"" page; no error message displayed (see video in Attachments).|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-115,SDQA-101,SDQA Sprint 1
+SauceDemo | Checkout | User can access checkout with an empty cart,SDQA-124,Bug,To Do,SDQA,SauceDemo_QA,Medium,09/Aug/26 9:14 PM,09/Aug/26 9:18 PM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User is located on the Cart Page ([https://www.saucedemo.com/cart.html|https://www.saucedemo.com/cart.html]).
+* User has NO items in the cart.
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User locates ""Checkout"" button in the bottom right corner and attempts to click it.|The ""Checkout"" button is grayed out/disabled and cannot be clicked; the user is not redirected to the ""Checkout: Your Information"" page (/checkout-step-one.html).|The button is not disabled and when clicked, User is redirected to the ""Checkout: Your Information"" page (/checkout-step-one.html):
+!Screenshot 2026-08-09 211254 (004f66dc-c3b1-49e5-9e80-00d558d9eb32).png|width=342,alt=""Screenshot 2026-08-09 211254.png""!|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-72,SDQA-115,SDQA Sprint 1
+SauceDemo | Product Catalog | Applied sorting option resets to default after page refresh,SDQA-123,Bug,To Do,SDQA,SauceDemo_QA,Low,09/Aug/26 9:08 PM,10/Aug/26 7:14 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User has logged in as standard_user.
+* User is located on the Product Catalogue Page ([https://www.saucedemo.com/inventory.html|https://www.saucedemo.com/inventory.html]).
+* User has applied the sorting option “Price (low to high)”.
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User notes the sort option in the top right corner.|The sorting option in the top right corner under cart icon is set ""Price (low to high)""; products are sorted in ascending order by price.|-|
+|User refreshes the page.|The products remain sorted by price (low to high) and the dropdown still shows the previously selected option ""Price (low to high)"".|*The sorting option resets to the default option: Name (A to Z).* See video in the Attachments.|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing:* 
+
+* Username: standard_user
+* Password: secret_sauce","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-27,SDQA-115,SDQA Sprint 1
+
+SauceDemo | Login | UX |  Login username field accepts infinite number of characters,SDQA-121,Bug,To Do,SDQA,SauceDemo_QA,Low,09/Aug/26 8:45 PM,09/Aug/26 9:17 PM,V1.0,"*PRE-CONDITIONS:*
+
+* User is located on the login page ([https://www.saucedemo.com/|https://www.saucedemo.com/|smart-link] ).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User input a very long string of characters (e.g., 'a' 200+ times) into username field.|The input field prevents the user from typing more than defined limit of characters (e.g., 50).|The "" Username"" input field accepts infinite amount of characters:
+!Screenshot 2026-08-09 204224 (b69183be-62fa-4344-a0fa-5b319311b5ef).png|width=318,alt=""Screenshot 2026-08-09 204224.png""!|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing: -*","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-13,SDQA-115,SDQA Sprint 1
+SauceDemo | Login | UX |  Login password field accepts infinite number of characters,SDQA-120,Bug,To Do,SDQA,SauceDemo_QA,Low,09/Aug/26 8:38 PM,09/Aug/26 8:44 PM,V1.0,"*PRE-CONDITIONS:*
+
+* User is located on the login page ([https://www.saucedemo.com/|https://www.saucedemo.com/|smart-link] ).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User input a very long string of characters (e.g., 'a' 200+ times) into password field.|The input field prevents the user from typing more than defined limit of characters (e.g., 100).|The "" Password"" input field accepts infinite amount of characters:
+!Screenshot 2026-08-09 203702 (8b36d2ed-f6bf-4b09-a1a7-897282f0dbb6).png|width=189,alt=""Screenshot 2026-08-09 203702.png""!|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing: -*","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-14,SDQA-115,SDQA Sprint 1
+SauceDemo | Login | UX |  Input fields and button lack visible focus indicators for mouse navigation,SDQA-119,Bug,To Do,SDQA,SauceDemo_QA,Low,09/Aug/26 8:32 PM,10/Aug/26 10:19 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User is located on the login page ([https://www.saucedemo.com/|https://www.saucedemo.com/|smart-link] ).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User presses the ""Tab"" key once.|The cursor/focus moves to the ""Username"" field. A visual highlight border appears.|The cursor appears in the ""Username"" input field, but *there is no visual highlight:*
+!Screenshot 2026-08-09 200737.png|width=477,alt=""Screenshot 2026-08-09 200737.png""!|
+|User presses the Tab key again (2nd time).|The cursor/focus moves to the ""Password"" field. A visual highlight border appears.|The cursor appears in the ""Password input field, *but there is no visual highlight:*
+!Screenshot 2026-08-09 200835.png|width=477,alt=""Screenshot 2026-08-09 200835.png""!|
+|User presses the Tab key again (3rd time).|The cursor/focus moves to the ""Login"" button. The button is visually highlighted.|The button does *not visually highlight for the user*, when hovered over*:*
+!Screenshot 2026-08-09 200843.png|width=477,alt=""Screenshot 2026-08-09 200843.png""!|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing: -*","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-18,SDQA-115,SDQA Sprint 1
+SauceDemo | Login | UX |  Input fields and button lack visible focus indicators for keyboard navigation,SDQA-118,Bug,To Do,SDQA,SauceDemo_QA,Low,09/Aug/26 8:16 PM,10/Aug/26 11:11 AM,V1.0,"*PRE-CONDITIONS:*
+
+* User is located on the login page ([https://www.saucedemo.com/|https://www.saucedemo.com/|smart-link] ).
+
+*STEPS | RESULTS:*
+
+||*Action*||*Expected Result*||*Actual Result*||
+|User presses the ""Tab"" key once.|The cursor/focus moves to the ""Username"" field. A visual highlight border appears.|The cursor appears in the “Username” input field, *but there is no visual highlight:*
+!Screenshot 2026-08-09 200737.png|width=477,alt=""Screenshot 2026-08-09 200737.png""!|
+|User presses the Tab key again (2nd time).|The cursor/focus moves to the ""Password"" field. A visual highlight border appears.|The cursor moves to the “Password” input field, *but there is no visual highlight:*
+!Screenshot 2026-08-09 200835.png|width=477,alt=""Screenshot 2026-08-09 200835.png""!|
+|User presses the Tab key again (3rd time).|The cursor/focus moves to the ""Login"" button. The button is visually highlighted.|*The button does not visually highlight for the user:*
+!Screenshot 2026-08-09 200843.png|width=477,alt=""Screenshot 2026-08-09 200843.png""!|
+
+*DUT:*
+
+* *DEVICE*: HP Victus 15 
+* *OS*: Windows 11 Home, 25H2
+* *BROWSER*: Google Chrome Version 150.0.7871.46
+
+*REPRODUCIBILITY*: 5/5
+
+*Account used for testing: -*","*VERSION | ENV:*
+
+* *Build Version:* V1.0
+* *Enviroment:*  PROD",SDQA-16,SDQA-115,SDQA Sprint 1
