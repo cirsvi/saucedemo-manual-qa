@@ -3,6 +3,7 @@
 **Test Set ID:** SDQA-110
 
 **Purpose:** Ensure that all checkou functionality, such as form validation, mavigation, error handling, purchase completion, and UX interactions, work as expected after any changes to the application.
+
 **Linked User Stories:** [SDQA-69](../user-stories/SDQA-69-checkout.md)
 
 | Rank | ID | Summary |

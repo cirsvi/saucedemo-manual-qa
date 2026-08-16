@@ -7,7 +7,7 @@
 | **Severity**       | Low |
 | **Build Version**  | V1.0 |
 | **Environment**    | PROD |
-| **Linked Test Case** | [SDQA-27](../../test-cases/product-catalog/SDQA-27-refresh-sort.md) – SauceDemo \| Product Catalog \| Refresh page preserves applied sort |
+| **Linked Test Case** | [SDQA-27](../../test-cases/product-catalog/SDQA-27-refresh-sort.md) – Product Catalog \| Refresh page preserves applied sort |
 
 ## Preconditions:
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.
@@ -27,8 +27,8 @@
 - **BROWSER:** Google Chrome Version 150.0.7871.46
 
 ## Reproducibility & Account:
-**Reproducibility:** 5/5 (consistently reproducible)
-**Account used for testing:**  standard_user (password: secret_sauce)
+- **Reproducibility:** 5/5 (consistently reproducible)
+- **Account used for testing:**  standard_user (password: secret_sauce)
 
 ## Attachments:
 ![Sorting state reset](../../evidence/sorting_state.gif)

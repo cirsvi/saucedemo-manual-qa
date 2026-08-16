@@ -3,6 +3,7 @@
 **Test Set ID:** SDQA-55
 
 **Purpose:** Ensure that logout functionality work as expected after any changes to the application.
+
 **Linked User Stories:** [SDQA-50](../user-stories/SDQA-50-logout.md)
 
 | Rank | ID | Summary |

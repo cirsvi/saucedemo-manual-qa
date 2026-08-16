@@ -7,7 +7,7 @@
 | **Severity**        | Low |
 | **Build Version**        | V1.0 |
 | **Environment**        | PROD |
-| **Linked Test Case** | [SDQA-18](../../test-cases/login/SDQA-18-mouse-interaction.md) – SauceDemo \| Login \| UX \| Mouse interaction |
+| **Linked Test Case** | [SDQA-18](../../test-cases/login/SDQA-18-mouse-interaction.md) – Login \| UX \| Mouse interaction |
 
 ## Preconditions:
 - [SDQA-4](../../preconditions/SDQA-4-on-login-page.md): User is located on the [login page]( https://www.saucedemo.com/).
@@ -26,5 +26,5 @@
 - **BROWSER:** Google Chrome Version 150.0.7871.46
 
 ## Reproducibility & Account:
-**Reproducibility:** 5/5 (consistently reproducible)
-**Account used for testing:**  N/A
+- **Reproducibility:** 5/5 (consistently reproducible)
+- **Account used for testing:**  N/A

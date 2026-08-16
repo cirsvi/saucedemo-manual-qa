@@ -1,4 +1,4 @@
-# SDQA-13: SauceDemo | Login | Client-side: Password input really long string
+# SDQA-14: SauceDemo | Login | Client-side: Password input really long string
 
 | Field             | Detail |
 |-------------------|--------|

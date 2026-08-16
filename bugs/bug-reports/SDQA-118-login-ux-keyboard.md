@@ -7,7 +7,7 @@
 | **Severity**        | Low |
 | **Build Version**        | V1.0 |
 | **Environment**        | PROD |
-| **Linked Test Case** | [SDQA-16](../../test-cases/login/SDQA-16-tab-navigation.md) – SauceDemo \| Login \| UX \| Tab navigation |
+| **Linked Test Case** | [SDQA-16](../../test-cases/login/SDQA-16-tab-navigation.md) – Login \| UX \| Tab navigation |
 
 ## Preconditions:
 - [SDQA-4](../../preconditions/SDQA-4-on-login-page.md): User is located on the [login page]( https://www.saucedemo.com/).
@@ -26,5 +26,5 @@
 - **BROWSER:** Google Chrome Version 150.0.7871.46
 
 ## Reproducibility & Account:
-**Reproducibility:** 5/5 (consistently reproducible)
-**Account used for testing:**  N/A
+- **Reproducibility:** 5/5 (consistently reproducible)
+- **Account used for testing:**  N/A

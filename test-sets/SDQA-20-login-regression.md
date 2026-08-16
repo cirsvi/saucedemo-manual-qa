@@ -3,6 +3,7 @@
 **Test Set ID:** SDQA-20
 
 **Purpose:** Ensure that all login functionality, including valid and invalid credentials, input validation, and UX interactions, work as expected after any changes to the application.
+
 **Linked User Stories:** [SDQA-1](../user-stories/SDQA-1-Login.md)
 
 | Rank | ID | Summary |

@@ -25,7 +25,7 @@
 | [SDQA-103](../test-cases/checkout/SDQA-103-zipcode-max-length.md) | SauceDemo \| Checkout \| Server-side: Zip code input really long string |
 | [SDQA-104](../test-cases/checkout/SDQA-104-overview-content.md) | SauceDemo \| Checkout \| Overview page content |
 | [SDQA-105](../test-cases/checkout/SDQA-105-complete-purchase.md) | SauceDemo \| Checkout \| Complete purchase |
-| [SDQA-106](../test-cases/checkout/SDQA-106-after-cart-empty.md) | SauceDemo \| Checkout \| Cart is empty after purchase |
+| [SDQA-106](../test-cases/checkout/SDQA-106-complete-purchase-empty-cart-empty.md) | SauceDemo \| Checkout \| Cart is empty after purchase |
 | [SDQA-108](../test-cases/checkout/SDQA-108-return-to-homepage.md) | SauceDemo \| Checkout \| Return back to homepage after purchase |
 | [SDQA-109](../test-cases/checkout/SDQA-109-generate-pdf-receipt.md) | SauceDemo \| Checkout \| Generate PDF order receipt |
 | [SDQA-112](../test-cases/checkout/SDQA-112-checkout-mouse-interactions.md) | SauceDemo \| Checkout \| UX \| Tab navigation on Information Page |

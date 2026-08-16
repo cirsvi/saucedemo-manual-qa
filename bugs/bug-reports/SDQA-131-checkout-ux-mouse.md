@@ -7,7 +7,7 @@
 | **Severity**       | Low |
 | **Build Version**  | V1.0 |
 | **Environment**    | PROD |
-| **Linked Test Case** | [SDQA-112](../../test-cases/checkout/SDQA-112-checkout-mouse-interactions.md) – SauceDemo \| Checkout \| UX \| Mouse interactions on Information Page |
+| **Linked Test Case** | [SDQA-112](../../test-cases/checkout/SDQA-112-checkout-mouse-interactions.md) – Checkout \| UX \| Mouse interactions on Information Page |
 
 ## Preconditions:
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.
@@ -30,5 +30,5 @@
 - **BROWSER:** Google Chrome Version 150.0.7871.46
 
 ## Reproducibility & Account:
-**Reproducibility:** 5/5 (consistently reproducible)
-**Account used for testing:**  standard_user (password: secret_sauce)
+- **Reproducibility:** 5/5 (consistently reproducible)
+- **Account used for testing:**  standard_user (password: secret_sauce)

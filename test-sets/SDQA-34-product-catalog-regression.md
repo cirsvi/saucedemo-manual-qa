@@ -3,6 +3,7 @@
 **Test Set ID:** SDQA-34
 
 **Purpose:** Ensure that all product catalog functionality, including navigation and sorting, work as expected after any changes to the application.
+
 **Linked User Stories:** [SDQA-21](../user-stories/SDQA-21-product-catalog.md)
 
 | Rank | ID | Summary |

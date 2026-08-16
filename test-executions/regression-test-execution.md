@@ -2,7 +2,7 @@
 
 | Item               | Detail |
 |--------------------|--------|
-| **Test Set**| [SDQA 20 - Login Regression](../test-sets/regression-login.md), [SDQA 34 - Product Catalog Regression](../test-sets/regression-product-catalog.md), [SDQA 49 - Shopping Cart Regression](../test-sets/regression-cart.md), [SDQA 55 - Logout Regression](../test-sets/SDQA-55-logout-regression.md), [SDQA 110 - Checkout Regression](../test-sets/regression-checkout.md) |
+| **Test Set**| [SDQA 20 - Login Regression](../test-sets/SDQA-20-login-regression.md), [SDQA 34 - Product Catalog Regression](../test-sets/SDQA-34-product-catalog-regression.md), [SDQA 49 - Shopping Cart Regression](../test-sets/SDQA-49-shopping-cart-regression.md), [SDQA 55 - Logout Regression](../test-sets/SDQA-55-logout-regression.md), [SDQA 110 - Checkout Regression](../test-sets/SDQA-110-checkout-regression.md) |
 | **Build Version**  | V1.0 |
 | **Environment** | PROD |
 | **Device** | HP Victus 15  |
@@ -56,8 +56,8 @@
 | [SDQA-37](../test-cases/cart/SDQA-37-add-from-details.md) | SauceDemo \| Shopping Cart \| Add product from Product Details Page | PASSED | - |
 | [SDQA-41](../test-cases/cart/SDQA-41-remove-from-catalog.md) | SauceDemo \| Shopping Cart \| Remove product from Catalog Page | PASSED | - |
 | [SDQA-43](../test-cases/cart/SDQA-43-remove-from-details.md) | SauceDemo \| Shopping Cart \| Remove product from Product Detail Page | PASSED | - |
-| [SDQA-44](../test-cases/cart/SDQA-44-remove-btn-persistance-details.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on Catalog Page after adding from the Product Details Page | PASSED | - |
-| [SDQA-45](../test-cases/cart/SDQA-45-remove-btn-persistance-catalog.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on  Product Details Page after adding from the Catalog Page | PASSED | - |
+| [SDQA-44](../test-cases/cart/SDQA-44-remove-btn-persistance-details.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on Catalog Page <br>after adding from the Product Details Page | PASSED | - |
+| [SDQA-45](../test-cases/cart/SDQA-45-remove-btn-persistance-catalog.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on  Product Details Page <br>after adding from the Catalog Page | PASSED | - |
 | [SDQA-46](../test-cases/cart/SDQA-46-cart-persistance-refresh.md) | SauceDemo \| Shopping Cart \| Cart state persistence after page refresh | PASSED | - |
 | [SDQA-62](../test-cases/cart/SDQA-62-access-cart-catalog.md) | SauceDemo \| Shopping Cart \| Access cart page from Catalog Page | PASSED | - |
 | [SDQA-63](../test-cases/cart/SDQA-63-view-cart.md) | SauceDemo \| Shopping Cart \| View items in cart | PASSED | - |

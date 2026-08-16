@@ -3,6 +3,7 @@
 **Test Set ID:** SDQA-19
 
 **Purpose:** Verify that the most critical paths of the application are working after a new build.
+
 **Linked User Stories:** [SDQA-1](../user-stories/SDQA-1-Login.md), [SDQA-21](../user-stories/SDQA-21-product-catalog.md), [SDQA-35](../user-stories/SDQA-35-cart-functionality.md), [SDQA-50](../user-stories/SDQA-50-logout.md), [SDQA-56](../user-stories/SDQA-56-cart-management.md), [SDQA-69](../user-stories/SDQA-69-checkout.md)
 
 | Rank | ID | Summary |

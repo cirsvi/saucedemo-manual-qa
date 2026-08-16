@@ -7,7 +7,7 @@
 | **Severity**       | Low |
 | **Build Version**  | V1.0 |
 | **Environment**    | PROD |
-| **Linked Test Case** | [SDQA-93](../../test-cases/checkout/SDQA-93-lastname-spec-char.md) –  SauceDemo \| Checkout \| Server-side: Last name input does not accept special characters |
+| **Linked Test Case** | [SDQA-93](../../test-cases/checkout/SDQA-93-lastname-spec-char.md) – Checkout \| Server-side: Last name input does not accept special characters |
 
 ## Preconditions:
 - [SDQA-32](../../preconditions/SDQA-32-logged-in.md): User is logged in as standard_user.
@@ -29,8 +29,8 @@
 - **BROWSER:** Google Chrome Version 150.0.7871.46
 
 ## Reproducibility & Account:
-**Reproducibility:** 5/5 (consistently reproducible)
-**Account used for testing:**  standard_user (password: secret_sauce)
+- **Reproducibility:** 5/5 (consistently reproducible)
+- **Account used for testing:**  standard_user (password: secret_sauce)
 
 ## Attachments:
 ![Last name with special character input](../../evidence/lastname_spec_char.gif)

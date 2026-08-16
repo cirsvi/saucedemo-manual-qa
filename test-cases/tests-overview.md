@@ -40,8 +40,7 @@ All tests cases below are grouped by feature / user story. Click any ID to open 
 | [SDQA-28](product-catalog/SDQA-28-product-details.md) | SauceDemo \| Product Catalog \| Navigate to product details page | High |
 
 ## Shopping Cart
-- User Story (Requirements): [SDQA-35](../user-stories/SDQA-35-cart-functionality.md)
-- User Story (Requirements): [SDQA-56](../user-stories/SDQA-56-cart-management.md)
+- User Story (Requirements): [SDQA-35](../user-stories/SDQA-35-cart-functionality.md), [SDQA-56](../user-stories/SDQA-56-cart-management.md)
 
 | ID | Summary | Priority |
 |----|---------|----------|
@@ -49,8 +48,8 @@ All tests cases below are grouped by feature / user story. Click any ID to open 
 | [SDQA-37](cart/SDQA-37-add-from-details.md) | SauceDemo \| Shopping Cart \| Add product from Product Details Page | High |
 | [SDQA-41](cart/SDQA-41-remove-from-catalog.md) | SauceDemo \| Shopping Cart \| Remove product from Catalog Page | High |
 | [SDQA-43](cart/SDQA-43-remove-from-details.md) | SauceDemo \| Shopping Cart \| Remove product from Product Detail Page | High  |
-| [SDQA-44](cart/SDQA-44-remove-btn-persistance-details.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on Catalog Page after adding from the Product Details Page | Medium |
-| [SDQA-45](cart/SDQA-45-remove-btn-persistance-catalog.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on  Product Details Page after adding from the Catalog Page | Medium |
+| [SDQA-44](cart/SDQA-44-remove-btn-persistance-details.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on Catalog Page <br>after adding from the Product Details Page | Medium |
+| [SDQA-45](cart/SDQA-45-remove-btn-persistance-catalog.md) | SauceDemo \| Shopping Cart \| Verify "Remove" button appears on  Product Details Page <br>after adding from the Catalog Page | Medium |
 | [SDQA-46](cart/SDQA-46-cart-persistance-refresh.md) | SauceDemo \| Shopping Cart \| Cart state persistence after page refresh | Medium |
 | [SDQA-62](cart/SDQA-62-access-cart-catalog.md) | SauceDemo \| Shopping Cart \| Access cart page from Catalog Page | High |
 | [SDQA-63](cart/SDQA-63-view-cart.md) | SauceDemo \| Shopping Cart \| View items in cart | High |
