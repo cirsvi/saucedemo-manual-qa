@@ -12,6 +12,13 @@ All bug reports below are grouped by feature / user story. Click any ID to open 
 | [SDQA-120](bug-reports/SDQA-120-login-password-long-input.md) | SauceDemo \| Login \| UX \|  Login password field accepts infinite number of characters | Low | [SDQA-14](../test-cases/login/SDQA-14-long-password.md) |
 | [SDQA-121](bug-reports/SDQA-121-login-username-long-input.md) | SauceDemo \| Login \| UX \| Login username field accepts infinite number of characters | Low | [SDQA-13](../test-cases/login/SDQA-13-long-username.md) |
 
+## Logout
+- User Story (Requirements): [SDQA-50](../user-stories/SDQA-50-logout.md)
+
+| ID | Summary | Priority | Linked Test Case |
+|----|---------|----------|------------------|
+| [SDQA-133](bug-reports/SDQA-133-login-error-ui.md) | SauceDemo \| Login \| UI \| Error message text overflows its container and is not fully readable | Low | [SDQA-53](../../test-cases/logout/SDQA-53-protected-pages.md) |
+
 ## Product Catalog
 - User Story (Requirements): [SDQA-21](../user-stories/SDQA-21-product-catalog.md)
 

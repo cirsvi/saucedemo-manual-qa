@@ -12,4 +12,4 @@
 ## Test Steps
 | Step | Action | Expected Result |
 |------|--------|-----------------|
-| 1 | User enters protected pages URL (e.g., https://www.saucedemo.com/inventory.html). | User is not redirected to entered URL (e.g., product catalog page). The user remains on the login page and the error message "You can only access 'XXX' when you are logged in." is displayed. |
+| 1 | User enters protected pages URL in the browser address bar (e.g., https://www.saucedemo.com/inventory.html). | User is not redirected to entered URL (e.g., product catalog page). The user remains on the login page and the error message "You can only access 'XXX' when you are logged in." is displayed. |

@@ -1,4 +1,4 @@
-# SDQA-45: SauceDemo | Shopping Cart | Verify "Remove" button appears on  Product Details Page after adding from the Catalog Page
+# SDQA-45: SauceDemo | Shopping Cart | Verify "Remove" button appears on Product Details Page after adding from the Catalog Page
 
 | Field             | Detail |
 |-------------------|--------|

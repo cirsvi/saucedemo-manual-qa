@@ -1,4 +1,4 @@
-# SDQA-65: Sauce Demo | Shopping Cart | Navigate to the Details Page from the cart
+# SDQA-65: Sauce Demo | Shopping Cart | Navigate to the Product Details Page from the cart
 
 | Field             | Detail |
 |-------------------|--------|
