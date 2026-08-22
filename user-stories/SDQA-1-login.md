@@ -19,6 +19,7 @@
 | [SDQA-14](../test-cases/login/SDQA-14-long-password.md) |  SauceDemo \| Login \| Client-side: Password input really long string |
 | [SDQA-16](../test-cases/login/SDQA-16-tab-navigation.md) |  SauceDemo \| Login \| UX \| Tab navigation |
 | [SDQA-18](../test-cases/login/SDQA-18-mouse-interaction.md) |  SauceDemo \| Login \| UX \| Mouse interaction |
+| [SDQA-137](../test-cases/login/SDQA-137-closing-error.md) |  SauceDemo \| Login \| Closing error message clears message and input highlight |
 
 ## Business Value
 
@@ -27,33 +28,38 @@ Allows registered users to access the main functionality of the website: browsin
 ## Acceptance Criteria (AC)
 
 ### Valid Login:
-*Given* I am on the [login page](https://www.saucedemo.com/ ),
+*Given* I am on the [login page](https://www.saucedemo.com/),
 *When* I enter a valid username and a valid password,
 *Then* I should be redirected to the /inventory.html page and see the product list.
 
 ### Invalid Login:
-*Given* I am on the [login page](https://www.saucedemo.com/ ),
+*Given* I am on the [login page](https://www.saucedemo.com/),
 *When* I enter an invalid username or/and invalid password,
 *Then* I see the error message “Username and password do not match any user in this service“
 
 ### Locked-Out User:
-*Given* I am on the [login page](https://www.saucedemo.com/ ),
+*Given* I am on the [login page](https://www.saucedemo.com/),
 *When* I enter a locked-out username (locked_out_user) with a valid password,
 *Then* I see the error message “Sorry, this user has been locked out.“
 
 ### Empty Field Validation:
 
 #### Both Fields Empty
-*Given* I am on the [login page](https://www.saucedemo.com/ ),
+*Given* I am on the [login page](https://www.saucedemo.com/),
 *When* I leave both the username and password fields empty and click the login button,
 *Then* I see the error message “Username is required“
 
 #### Password Empty
-*Given* I am on the [login page](https://www.saucedemo.com/ ),
+*Given* I am on the [login page](https://www.saucedemo.com/),
 *When* I enter the username but leave the password empty and click the login button,
 *Then* I see the error message “Password is required“
 
 #### Username Empty
-*Given* I am on the [login page](https://www.saucedemo.com/ ),
+*Given* I am on the [login page](https://www.saucedemo.com/),
 *When* I enter the password but leave the username empty and click the login button,
 *Then* I see the error message “Username is required“
+
+#### Error Dismissal:
+*Given* I am on the [login page](https://www.saucedemo.com/) and the error message is displayed,
+*When* I close/dismiss the error message,
+*Then* the error message disappears, and any red highlights on the input field disappear

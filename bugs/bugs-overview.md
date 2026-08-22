@@ -17,7 +17,7 @@ All bug reports below are grouped by feature / user story. Click any ID to open 
 
 | ID | Summary | Priority | Linked Test Case |
 |----|---------|----------|------------------|
-| [SDQA-133](bug-reports/SDQA-133-login-error-ui.md) | SauceDemo \| Login \| UI \| Error message text overflows its container and is not fully readable | Low | [SDQA-53](../../test-cases/logout/SDQA-53-protected-pages.md) |
+| [SDQA-135](bug-reports/SDQA-133-login-error-ui.md) | SauceDemo \| Login \| UI \| Error message text overflows its container and is not fully readable | Low | [SDQA-53](../../test-cases/logout/SDQA-53-protected-pages.md) |
 
 ## Product Catalog
 - User Story (Requirements): [SDQA-21](../user-stories/SDQA-21-product-catalog.md)

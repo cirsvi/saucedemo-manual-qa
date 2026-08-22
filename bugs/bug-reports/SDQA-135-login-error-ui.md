@@ -1,4 +1,4 @@
-# SDQA-133: SauceDemo | Login | UI | Error message text overflows its container and is not fully readable
+# SDQA-135: SauceDemo | Login | UI | Error message text overflows its container and is not fully readable
 
 | Attribute          | Value |
 |--------------------|-------|
